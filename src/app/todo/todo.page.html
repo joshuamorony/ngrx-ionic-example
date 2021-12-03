@@ -1,0 +1,20 @@
+<ion-content>
+  <div class="container">
+    <h2>Let's get things done!</h2>
+    <ion-input [(ngModel)]="todo"> </ion-input>
+    <ion-button color="success" fill="outline" (click)="addTodo()"
+      >Add Todo</ion-button
+    >
+
+    <ion-list lines="none">
+      <ion-item
+        (click)="removeTodo(todo)"
+        button
+        *ngFor="let todo of allTodos$ | async"
+      >
+        <ion-icon name="checkmark-circle-outline" slot="end"></ion-icon>
+        <ion-label> {{todo.content}} </ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

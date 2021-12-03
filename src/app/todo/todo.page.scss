@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+h2 {
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+ion-input {
+  box-shadow: 0px 6px 20px 0px #d2d0e1;
+  width: 90%;
+  font-size: 1.2em;
+  padding: 1rem !important;
+}
+
+ion-button {
+  margin: 2rem;
+  width: 90%;
+}
+
+ion-list {
+  width: 100%;
+}
+
+ion-label {
+  font-weight: bold;
+}

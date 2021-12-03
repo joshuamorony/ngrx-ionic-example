@@ -1,0 +1,7 @@
+{
+  "name": "ngrx-todo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
